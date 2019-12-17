@@ -11,4 +11,5 @@ sudo mkdir /opt/steam
 cd /opt/steam
 sudo wget https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz
 sudo tar xf steamcmd_linux.tar.gz
+rm steamcmd_linux.tar.gz
 ./steamcmd.sh +login anonymous +force_install_dir ./rust/ +app_update 258550 validate +exit
