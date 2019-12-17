@@ -1,4 +1,4 @@
-#© 2019 Scripter. All rights reserved.
+#Copyright (c) 2019 iScripter
 apt-get update && apt-get  upgrade -y
 apt install lib32gcc1 lib32stdc++6 ca-certificates curl screen -y
 mkdir /opt/steam
