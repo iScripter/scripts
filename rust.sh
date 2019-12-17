@@ -1,4 +1,4 @@
-#© 2019 Scripter. All rights reserved.
+#Copyright (c) 2019 iScripter
 apt update && apt upgrade -y
 apt-get install lib32gcc1 -y
 apt-get install libc6:i386 libgl1-mesa-glx:i386 libxcursor1:i386 libxrandr2:i386 -y
