@@ -1,7 +1,7 @@
 #Copyright (c) 2019 iScripter
 apt-get update && apt-get upgrade -y
-apt-get install lib32gcc1
-apt-get install screen wget nano tar unzip
+apt-get install lib32gcc1 -y
+apt-get install screen wget nano tar unzip -y
 mkdir /opt/steam
 cd /opt/steam
 wget http://media.steampowered.com/installer/steamcmd_linux.tar.gz
