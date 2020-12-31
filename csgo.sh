@@ -1,6 +1,6 @@
 #Copyright (c) 2019 iScripter
 apt update && apt upgrade -y
-apt install wget sudo screen tar
+apt install wget sudo screen tar -y
 sudo apt-get install lib32gcc1 -y
 sudo mkdir /opt/steam
 cd /opt/steam
